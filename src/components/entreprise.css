@@ -1,0 +1,85 @@
+.entreprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entreprise_logo{
+    height: 300px;
+}
+
+.entreprise_presentation{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.entreprise_presentation h3, h2{
+    margin: 10px;
+}
+
+.entreprise_presentation p{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.entreprise_info{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+}
+
+.entreprise_separation{
+    position: relative;
+    width: 80%;
+    left: 145px;
+    bottom: 35px;
+}
+
+.services_title{
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.services_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    height: 400px;
+}
+
+.services_card{
+    width:250px;
+    background-color: white;
+    height: 320px;
+    border-radius: 25px;
+
+}
+
+.services_card h2{
+    text-align: center;
+    font-size: 20px;
+    color: #191924;
+}
+
+.services_card img{
+    width: 247px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.services_card p {
+    color: #191924;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
