@@ -1,4 +1,5 @@
 import React from 'react'
+import './reseaux.css'
 
 const Reseaux = () => {
   return (

@@ -4,10 +4,10 @@ import Navbar from '@/components/Navbar'
 
 const Réalisations = () => {
     return (
-        <div>
+        <main className='main'>
           <Header />
           <Navbar />
-          page</div>
+        </main>
       )
 }
 

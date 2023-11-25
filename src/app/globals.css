@@ -112,7 +112,15 @@ body{
   color: white;
 }
 
-html{
+
+
+main{
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px){
+  html{
   display: flex;
   justify-content: center;
+}
 }

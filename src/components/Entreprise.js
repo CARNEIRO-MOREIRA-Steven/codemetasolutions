@@ -38,7 +38,6 @@ const Entreprise = () => {
           ))}
         </aside>
         </section>
-        <hr className='entreprise_separation'></hr>
         <section className='services'>
         <section className='services_title'>
             <h2>Mes Services</h2>

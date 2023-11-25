@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 50px;
+    width: 100%;
 }
 
 .entreprise_presentation h3, h2{
@@ -25,16 +26,11 @@
 
 .entreprise_info{
     display: flex;
-    width: 1440px;
     align-items: center;
+    min-width: 1440px;
+    justify-content: space-between;
 }
 
-.entreprise_separation{
-    position: relative;
-    width: 80%;
-    left: 145px;
-    bottom: 35px;
-}
 
 .services_title{
     text-align: center;
@@ -47,7 +43,6 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
-    height: 400px;
 }
 
 .services_card{
@@ -80,6 +75,64 @@
     align-items: center;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+   .services_card{
+    width: 17%;
+    height: 400px;
+   }
+   .services_card img{
+    width: 99%;
+   }
+   .services_container{
+    justify-content: space-around;
+    gap: 0;
+   }
+   .services_card h2{
+    height: 46px;
+   }
 
+}
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .services{
+        margin-top: 15px;
+    }
+    .entreprise_separation{
+        bottom: -10px;
+    }
+
+    .services_card{
+        width: 50%;
+    }
+
+    .services_card img{
+        width: 99.5%;
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px){
+    .services_container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .entreprise_info{
+        flex-direction: column;
+    }
+
+    .entreprise_logo{
+        height: 150px;
+    }
+
+    .entreprise_presentation{
+        height: 450px;
+        margin-right: 0;
+        align-items: center;
+        width: 85%;
+    }
+}
 
