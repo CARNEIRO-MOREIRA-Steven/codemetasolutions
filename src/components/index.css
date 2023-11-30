@@ -15,7 +15,6 @@ nav{
     height: 50px;
     display: flex;
     position: relative;
-    top: 50px;
     align-items: center;
     width: 100%;
     justify-content: center;
@@ -37,7 +36,6 @@ li{
 a{
     text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.466);
     padding: 7px;
     border-radius: 15px;
     align-items: center;
@@ -58,14 +56,14 @@ a{
 
 hr{
     height: 2px;
-    width: 50px;
+    width: 40px;
     background-color: white;
     border: none;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     hr{
-        width: 20px;
+        width: 15px;
     }
     a{
         padding: 2.5px;
@@ -74,20 +72,15 @@ hr{
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     ul{
-        flex-direction: column;
         margin-right: 5px;
-    }
-    li{
-        width: 122px;
+        flex-wrap: wrap;
     }
     a{
         justify-content: center;
-        background-color: rgb(0 0 0 / 74%);
     }
     nav{
         justify-content: flex-end;
-        top: 265px;
-        height: 25px;
+        height: 120px;
     }
 
     header{
@@ -101,6 +94,9 @@ hr{
     .logo_entreprise{
         height: 80px;
         margin:0px 10px;
+    }
+    hr{
+        width: 8.2%;
     }
 
 }

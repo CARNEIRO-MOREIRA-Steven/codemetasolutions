@@ -108,19 +108,22 @@ a {
 body{
   margin: 0;
   background-color: #191924;
-  max-width: 1440px;
   color: white;
 }
 
-
-
 main{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1441px){
   html{
   display: flex;
   justify-content: center;
 }
+  body{
+  width: 1440px;
+  }
 }

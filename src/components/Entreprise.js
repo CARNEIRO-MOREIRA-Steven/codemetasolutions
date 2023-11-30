@@ -44,28 +44,28 @@ const Entreprise = () => {
         </section>
             <section className='services_container'>
             <aside className='services_card'>
-                <h2>Construction de Site Web</h2>
                 <img src='./images/creation.jpg'></img>
+                <h2>Construction de Site Web</h2>
                 <p>Création de sites web modernes et intuitifs, alignés sur vos objectifs commerciaux. Du concept à la réalité digitale, nous transformons vos idées en une présence en ligne percutante.</p>
             </aside>
             <aside className='services_card'>
-                <h2>Refonte de Site Web</h2>
                 <img src='./images/refonte.png'></img>
+                <h2>Refonte de Site Web</h2>
                 <p>Modernisez votre site web existant pour refléter les dernières tendances et améliorer l'expérience utilisateur. Donnez une nouvelle vie à votre présence en ligne.</p>
             </aside>
             <aside className='services_card'>
-                <h2>Optimisation SEO</h2>
                 <img src='./images/seo.png'></img>
+                <h2>Optimisation SEO</h2>
                 <p>Améliorez la visibilité de votre site sur les moteurs de recherche. Avec des techniques SEO avancées, nous positionnons votre site en tête des résultats pour attirer plus de visiteurs.</p>
             </aside>
             <aside className='services_card'>
-                <h2>Graphisme Web</h2>
                 <img src='./images/design.avif'></img>
+                <h2>Graphisme Web</h2>
                 <p>Création d'éléments graphiques percutants pour renforcer l'identité visuelle de votre marque en ligne. Des logos aux images, chaque détail est conçu pour captiver votre audience.</p>
             </aside>
             <aside className='services_card'>
-                <h2>Débogage et Maintenance</h2>
                 <img src='./images/debug.png'></img>
+                <h2>Débogage et Maintenance</h2>
                 <p>Garantissez le bon fonctionnement de votre site en identifiant et en résolvant rapidement les problèmes. Notre service de débogage et de maintenance assure une expérience utilisateur sans faille.</p>
             </aside>
         </section>
