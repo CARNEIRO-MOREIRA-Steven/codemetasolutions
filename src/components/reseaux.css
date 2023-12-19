@@ -7,9 +7,6 @@
     height: 50px;
 }
 
-.reseaux a{
-    background-color: #191924;
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     .reseaux{

@@ -20,6 +20,10 @@
     color: white;
 }
 
+.menu_presentation ul li.active a {
+    color: #EDC62A;
+  }
+
 .card{
     display: none;    
 }

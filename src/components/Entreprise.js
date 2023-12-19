@@ -29,7 +29,7 @@ const Entreprise = () => {
     return (
       <section className='entreprise'>
         <section className='entreprise_info'>
-        <img className='entreprise_logo' src='./images/Logo.png' alt="Logo"></img>
+        <img className='entreprise_logo' src='./images/logo-sansfond.png' alt="Logo"></img>
         <aside className='entreprise_presentation'>
           <h2>CodeMeta Solutions</h2>
           <h3>Bienvenue chez CodeMeta Solutions!</h3>
@@ -43,31 +43,40 @@ const Entreprise = () => {
             <h2>Mes Services</h2>
         </section>
             <section className='services_container'>
+            <a href='prestations#section-1'>
             <aside className='services_card'>
                 <img src='./images/creation.jpg'></img>
                 <h2>Construction de Site Web</h2>
                 <p>Création de sites web modernes et intuitifs, alignés sur vos objectifs commerciaux. Du concept à la réalité digitale, nous transformons vos idées en une présence en ligne percutante.</p>
             </aside>
+            </a>
+            <a href='prestations#section-2'>
             <aside className='services_card'>
                 <img src='./images/refonte.png'></img>
                 <h2>Refonte de Site Web</h2>
                 <p>Modernisez votre site web existant pour refléter les dernières tendances et améliorer l'expérience utilisateur. Donnez une nouvelle vie à votre présence en ligne.</p>
             </aside>
+            </a>
+            <a href='prestations#section-3'>
             <aside className='services_card'>
                 <img src='./images/seo.png'></img>
                 <h2>Optimisation SEO</h2>
                 <p>Améliorez la visibilité de votre site sur les moteurs de recherche. Avec des techniques SEO avancées, nous positionnons votre site en tête des résultats pour attirer plus de visiteurs.</p>
             </aside>
+            </a>
+            <a href='prestations#section-4'>
             <aside className='services_card'>
                 <img src='./images/design.avif'></img>
                 <h2>Graphisme Web</h2>
                 <p>Création d'éléments graphiques percutants pour renforcer l'identité visuelle de votre marque en ligne. Des logos aux images, chaque détail est conçu pour captiver votre audience.</p>
             </aside>
+            </a>
+            <a href='prestations#section-5'>
             <aside className='services_card'>
                 <img src='./images/debug.png'></img>
                 <h2>Débogage et Maintenance</h2>
                 <p>Garantissez le bon fonctionnement de votre site en identifiant et en résolvant rapidement les problèmes. Notre service de débogage et de maintenance assure une expérience utilisateur sans faille.</p>
-            </aside>
+            </aside></a>
         </section>
     </section>
     </section>

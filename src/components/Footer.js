@@ -4,9 +4,9 @@ import Reseaux from './Reseaux'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer_contact'>
         <Reseaux />
-        <img src='./images/logo.webp'></img>
+        <img src='./images/logo-sansfond.png'></img>
     </footer>
   )
 }

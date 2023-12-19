@@ -13,9 +13,9 @@ const Informations = () => {
     <main className='presentation_page'>
       <nav className='menu_presentation'>
         <ul>
-          <li><a href="#" onClick={() => Card('card1')}>L'entreprise</a></li>
-          <li><a href="#" onClick={() => Card('card2')}>Fondateur</a></li>
-          <li><a href="#" onClick={() => Card('card3')}>Formations</a></li>
+        <li className={activeCard === 'card1' ? 'active' : ''}><a href="#" onClick={() => Card('card1')}>L'entreprise</a></li>
+          <li className={activeCard === 'card2' ? 'active' : ''}><a href="#" onClick={() => Card('card2')}>Fondateur</a></li>
+          <li className={activeCard === 'card3' ? 'active' : ''}><a href="#" onClick={() => Card('card3')}>Formations</a></li>
         </ul>
       </nav>
       <section id="card1" className={`card ${activeCard === 'card1' ? 'active' : ''}`}>

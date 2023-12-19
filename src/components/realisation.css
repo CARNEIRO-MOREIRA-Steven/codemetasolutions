@@ -1,0 +1,340 @@
+.page_realisation footer{
+  position: fixed;
+  bottom: 0;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.projet{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ipad{
+    height: 300px;
+}
+
+.mac{
+  position: relative;
+  top: 150px;
+}
+
+.iphone{
+    /* position: relative;
+    top: 140px;
+    right: 125px; */
+    height: 250px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.mac_image {
+  position: relative;
+  bottom: 198px;
+  width: 493px;
+  height: 300px;
+}
+
+.ipad_image{
+  position: relative;
+  width: 180px;
+  bottom: 275px;
+  left: 10px;
+  height: 240px;
+}
+
+.iphone_image{
+  position: relative;
+  width: 80px;
+  bottom: 204px;
+  left: 11px;
+  height: 145px;
+  object-fit: cover;
+}
+
+.container_mac{
+  cursor: pointer;
+  width: 640px;
+  height: 400px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_ipad{
+  position: relative;
+  left: -42px;
+  top: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 300px;
+}
+
+.container_iphone{
+  position: relative;
+  right: 65px;
+  top: 65px;
+  cursor: pointer;
+  width: 100px;
+  height: 250px;
+}
+
+.nom_projet{
+  position: relative;
+  top: 35px;
+  margin: 0;
+}
+
+.objectif_projet{
+  position: relative;
+  bottom: 70px;
+}
+
+.github{
+  cursor: pointer;
+  width: 80px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  left:  310px;
+  bottom: 500px;
+}
+
+.tags{
+  position: relative;
+  bottom: 80px ;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.tag{
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.tag_html{
+  background-color: #E44D25;
+}
+.tag_css{
+  background-color: #379BD6 ;
+}
+.tag_sass{
+  background-color: #CD669A;
+}
+.tag_javascript{
+  background-color: #F7E01D;
+}
+.tag_redux{
+  background-color:#764ABC;
+}
+.tag_react{
+  background-color:#53C1DE;
+}
+
+.tag_next{
+  background-color: #75D4CD;
+}
+
+.next_projet{
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  right: 18%;
+  background-color: transparent;
+  top: 71%;
+}
+
+.prev_projet{
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  top: 71%;
+  left: 18%;
+}
+
+.chevron{
+  height: 100px;
+}
+
+@media screen and (min-width: 1440px){
+  .prev_projet{
+    left: 30%;
+  }
+  .next_projet{
+    right: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .projet{
+    height: 350px;
+  }
+  .container_mac{
+    width: 450px;
+  }
+  .mac{
+    width: 450px;
+  }
+  .mac_image{
+    width: 343px;
+    bottom: 100px;
+    height: 215px;
+  }
+  .container_ipad{
+    top: 105px;
+    left: 10px;
+  }
+  .ipad{
+    height: 200px;
+  }
+  .ipad_image{
+    object-fit: cover;
+    left: 6px;
+    bottom: 190px;
+    width: 120px;
+    height: 170px;
+  }
+  .container_iphone{
+    right: 63px;
+    top: 130px;
+  }
+  .iphone{
+    height: 170px;
+  }
+  .iphone_image{
+    bottom: 139px;
+    left: 24px;
+    width: 55px;
+    height: 97px;
+  }
+  .next_projet{
+    right: 5%;
+    top: 62.5%;
+  }
+  .prev_projet{
+    left: 5%;
+    top: 62.5%;
+  }
+  .objectif_projet, .tags{
+    bottom: 0px;
+  }
+  .github{
+    bottom: 350px;
+    left: 215px;
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .container{
+    height: 70%;
+  }
+  .projet{
+    height: 300px;
+  }
+  .nom_projet{
+    position: absolute;
+    top: 300px;
+  }
+  .container_mac{
+    height: 250px;
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+  }
+  .mac{
+    width: 290px;
+  }
+  .mac_image{
+    width: 224px;
+    bottom:8px;
+    height: 135px;
+  }
+  .container_ipad{
+    height: 210px;
+    left: 150px;
+    top: -30px;
+    transform: rotate(-10deg);
+  }
+  .ipad{
+    height: 200px;
+  }
+  .ipad_image{
+    width: 115px;
+    bottom: 182px;
+    height: 160px;
+  }
+  .container_iphone{
+    height: 200px;
+    right: 130px;
+    transform: rotate(10deg);
+    top: -50px;
+    z-index: -1;
+  }
+  .iphone{
+    height: 200px;
+  }
+  .iphone_image{
+    height: 117px;
+    width: 64px;
+    left: 19px;
+    bottom: 165px;
+  }
+  .tags{
+    position: absolute;
+    bottom: 80px;
+    gap: 10px;
+    height: 80px;
+  }
+
+  .chevron{
+    height: 35px;
+  }
+
+  .next_projet{
+    right: 4%;
+    top: 53%;
+  }
+  .prev_projet{
+    left: 4%;
+    top: 53%;
+  }
+
+
+  .github{
+    position: absolute;
+    width: 50px;
+    left: 235px;
+    bottom: 575px;
+  }
+  
+  .responsive.projet{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .projet{
+    height:400px;
+  }
+
+  .objectif_projet{
+    position: absolute;
+    bottom: 200px;
+    text-align: center;
+    margin: 20px;
+  }
+
+}

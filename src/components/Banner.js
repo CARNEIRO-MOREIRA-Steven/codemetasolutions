@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Carousel = () => {
+const Banner = () => {
   return (
     <section className='carousel'>
     <img className='carousel_image' src='./images/carousel1.jpg'></img>
@@ -9,4 +9,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default Banner

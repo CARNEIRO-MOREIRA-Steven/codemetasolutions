@@ -4,7 +4,7 @@ import './hardskills.css'
 const HardSkills = () => {
   return (
 <section className='hardskills'>
-<div className="container">
+<div className="container_skills">
   <div className="card_skills">
     <h3 className="title">HTML5</h3>
     <p className='card_skills_texte'>Maîtrise des balises et des normes HTML5 pour la structuration des pages web.</p>
@@ -104,7 +104,7 @@ const HardSkills = () => {
     </div>
   </div>
   </div>
-  <div className="container">
+  <div className="container_skills">
   <div className="card_skills">
     <h3 className="title">Git</h3>
     <p className='card_skills_texte'>Utilisation avancée de Git pour le versionnement du code et la collaboration efficace.</p>

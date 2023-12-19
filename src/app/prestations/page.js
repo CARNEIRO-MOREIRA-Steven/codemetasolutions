@@ -1,13 +1,11 @@
 import React from 'react'
-import Header from '@/components/Header'
-import Navbar from '@/components/Navbar'
+import Services from '@/components/Services'
 
 const Prestations = () => {
     return (
-        <div>
-          <Header />
-          <Navbar />
-          page</div>
+        <main className='full_page'>
+            <Services />
+       </main>
       )
 }
 
