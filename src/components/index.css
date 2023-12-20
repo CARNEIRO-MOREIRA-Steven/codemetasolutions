@@ -81,11 +81,11 @@ hr{
     }
     nav{
         justify-content: flex-end;
-        height: 120px;
+        height: 80px;
     }
 
     header{
-        flex-direction: column;
+        flex-direction: row;
         gap: 0;
     }
 
