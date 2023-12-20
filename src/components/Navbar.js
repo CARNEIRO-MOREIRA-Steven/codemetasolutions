@@ -7,7 +7,6 @@ const Navbar = () => {
         <ul>
             <li><Link href="/">Homepage</Link></li><hr></hr>
             <li><Link href="/mes_infos">Présentation</Link></li><hr></hr>
-            <li><Link href="/actualites">Actualités</Link></li><hr></hr>
             <li><Link href="/prestations">Services</Link></li><hr></hr>
             <li><Link href="/hard_skills">Langages & Outils</Link></li><hr></hr>
             <li><Link href="/realisations">Mes réalisations</Link></li><hr></hr>
