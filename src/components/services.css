@@ -227,8 +227,8 @@ h2{
   gap: 50px;
   display: flex;
   flex-direction: row;
-  bottom: -90px;
-  position: relative;
+  bottom: 120px;
+  position: absolute;
   width: 100%;
   justify-content: center;
 }
@@ -334,7 +334,7 @@ h1{
   }
 
   .dots-aside{
-    bottom: 40px;
+    bottom: 80px;
   }
   .container_services footer {
     height: 80px;
