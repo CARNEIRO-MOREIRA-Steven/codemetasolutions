@@ -1,0 +1,146 @@
+.form_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forms {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  margin: 50px;
+  justify-content: space-between; /* Ajout de cette ligne */
+  background-color: rgb(160, 160, 160);
+  border-radius: 25px;
+  padding: 40px 0px;
+}
+
+.form_content {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input, textarea{
+    width: 280px;
+}
+
+select{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.email, .name, .telephone, .type, .besoin, .budget, .url, .plateforme, .objectif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name, #telephone{
+    width: 130px;
+}
+
+.new{
+    border-radius: 25px 0px 0px 25px;
+}
+
+.exist{
+    border-radius:  0px  25px 25px 0px ;
+    margin-left: 50%;
+}
+
+#button_exist{
+    position: absolute;
+    left: 50%;
+    border-radius:0px 25px 25px 0px;
+}
+
+#button_new{
+    position: absolute;
+    right: 50%;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.button{
+    border: none;
+    background-color: #EFC82A;
+    cursor: pointer;
+    width: 350px;
+    height: 480px;
+    padding: 0;
+}
+
+.details{
+    display: flex;
+    gap: 10px;
+}
+
+.carte_entreprise{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 767px) {
+    .forms{
+        margin-top: 10px;
+        width: 95%;
+    }
+
+    .carte_pc{
+        display: none;
+    }
+
+    .form_content {
+        width: 100%;
+        position: relative;
+        top: -100px;
+    }
+
+    .exist{
+        margin-left: 0%;
+    }
+
+    .details{
+        gap: 5px;
+    }
+
+
+    #button_exist{
+        padding: 50px;
+        top: 600px;
+        position: relative;
+        left: 0%;
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    #button_new{
+        position: relative;
+        padding: 50px;
+        left: 0%;
+        border-radius: 25px;
+        width: 100%;
+    }
+
+    #footer_contact{
+        margin-top: 120px;
+    }
+
+    input, textarea{
+        width: 250px;
+    }
+
+    iframe{
+        height: 300px;
+    }
+}

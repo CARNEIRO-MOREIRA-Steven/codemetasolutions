@@ -1,0 +1,16 @@
+.reseaux{
+    display: flex;
+    gap: 50px;
+}
+
+.reseaux img{
+    height: 50px;
+    width: 50px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .reseaux{
+        gap: 0px;
+    }
+}

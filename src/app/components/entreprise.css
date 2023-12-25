@@ -1,0 +1,320 @@
+.entreprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.entreprise_presentation{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 60%;
+}
+
+.entreprise_presentation h2{
+    margin: 10px;
+    color: #191924;
+}
+
+.entreprise_presentation p{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.entreprise_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 400px;
+}
+
+.entreprise_aside{
+    width: 400px;
+    height: 400px;
+    background-color:  #EDC62A ;
+}
+
+.carre{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    background-color:#191924;
+}
+
+.carre_logo{
+    transform: rotate(-45deg);
+    width: 200px;
+    height: 200px;
+}
+
+
+.services{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    background-color: #ebebeb;
+    padding-bottom: 100px;
+}
+
+
+.services_title{
+    text-align: center;
+    margin: 0px;
+    color: #191924;
+}
+
+.nav_services{
+    height: 150px;
+    gap: 20px;
+    cursor: pointer;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    border-bottom: 3px solid #edc62a;
+}
+
+.nav_services div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_services img{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.service{
+    margin-top: 100px;
+    width: 60%;
+    height: 500px;
+    border-radius: 25px;
+    padding: 50px;
+    display: none;
+}
+
+.service.active{
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+}
+
+#select{
+    display: none;
+    position: relative;
+    top: 38px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(237,198,42,1) 0%, rgba(25,25,36,1) 100%);}
+
+.nav.active #select {
+    display: flex;
+}
+
+.service_texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_description{
+    width: 60%;
+}
+
+.service img{
+    width: 400px;
+}
+
+#service1{
+    background-image: linear-gradient(147deg, #FFE53B 0%, #b92c2c 83%);
+}
+
+#service2{
+    background-image: linear-gradient(135deg, #087bde 15%, #b5a53b 100%);
+}
+
+#service3{
+    background-image: linear-gradient(180deg, #08AEEA 0%, #2AF598 100%);
+}
+
+#service4{
+    background: linear-gradient(90deg, rgba(245,67,141,1) 0%, rgba(247,125,142,1) 10%, rgba(247,156,128,1) 50%, rgba(247,175,113,1) 90%, rgba(246,200,66,1) 100%);
+}
+
+#service5{
+    background: linear-gradient(250deg, rgba(93,178,255,1) 0%, rgba(119,147,255,1) 46%, rgba(133,130,255,1) 54%, rgba(155,103,255,1) 100%);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+   .services{
+    padding-top: 25px;
+    height: 760px;
+   }
+
+   .service{
+    margin-top: 55px;
+   }
+
+   .service.active{
+    height: 550px;
+   }
+
+   .service img{
+    height: 150px;
+    width: 250px;
+   }
+
+   .entreprise_presentation{
+    width: 40%;
+    margin-right: 90px;
+   }
+
+   .nav_services{
+    width: 85%;
+   }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .entreprise_info{
+        width: 100%;
+    }
+
+    .entreprise_presentation{
+        width: 40%;
+        margin-right: 30px;
+    }
+
+    .entreprise_aside{
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carre{
+        width: 300px;
+        height: 300px;
+    }
+
+    .nav_services img{
+        width: 120px;
+        height: 100px;
+    }
+
+    .nav_services{
+        width: 90%;
+    }
+
+    .service{
+        padding: 20px;
+    }
+
+    .service img{
+        width: 200px;
+        height: 110px;
+    }
+
+    .service_description{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px){
+    .services_container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .entreprise_info{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .entreprise_aside{
+        width: 100%;
+        display: flex;
+        height: 200px;
+    }
+
+    .carre{
+        width: 200px;
+        height: 200px;
+    }
+
+    .carre_logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .entreprise_presentation h2{
+        margin-top: 25px;
+    }
+
+    .entreprise_presentation{
+        height: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+        align-items: center;
+        width: 90%;
+    }
+
+    .nav_services{
+        display: flex;
+        flex-wrap: wrap;
+        height: 60px;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .nav_services img{
+        display: none;
+    }
+
+    .nav_services p {
+        font-size: 15px;
+    }
+
+    .services {
+        height: 750px;
+    }
+
+    .services h2{
+        margin-top: 50px;
+    }
+
+    .service_texte h2{
+        margin-top: 0;
+    }
+
+    .service img{
+        width: 150px;
+        height: 90px;
+    }
+
+    .service{
+        margin-top: 25px;
+    }
+
+    .service.active{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .service_description{
+        width: 100%;
+    }
+}

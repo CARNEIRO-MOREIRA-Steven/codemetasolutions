@@ -1,0 +1,120 @@
+.projet{
+    width: 100%;
+    height: 100%;
+}
+.container_projet{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -250px;
+}
+
+.container_projet h2{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin-top: 100px
+}
+
+.contact_button{
+    border-radius: 25px;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(87,69,0,1) 0%, rgba(237,198,42,1) 100%);
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container_projet button{
+    position: absolute;
+    z-index: 1;
+    margin-top: 160px;
+}
+
+.contact_button:hover{
+    background: linear-gradient(180deg, rgba(87,69,0,1) 0%, rgba(237,198,42,1) 100%);
+}
+
+.background_projet{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+.contact{
+    height: 250px;
+    position:relative;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:#edc62a54;
+    z-index: +1;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.contact h3{
+    margin-top: 20px;
+    color: white;
+    position: relative;
+}
+
+.contact p {
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.card_projet{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .contact{
+       bottom: 0px
+    };
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .contact{
+        width: 230px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .background_projet{
+        height: 750px;
+    }
+
+    .container_projet h2{
+        margin-top: 20px;
+    }
+
+    .container_projet button{
+        margin-top: 60px;
+    }
+
+    .card_projet{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .container_projet{
+        margin-bottom: -630px;
+    }
+
+    .contact{
+        height: 200px;
+        width: 80%;
+        border-radius: 25px;
+    }
+}
